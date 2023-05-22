@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#43A047"
+    tools:context=".ProductCatalogActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilProductCatalog"
+        android:layout_width="392dp"
+        android:layout_height="64dp"
+        android:background="#4CAF50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etProductCatalog"
+            android:layout_width="373dp"
+            android:layout_height="48dp"
+            android:background="#4CAF50"
+            android:drawableRight="@drawable/ic_baseline_shopping_cart_24"
+            android:hint="Product Catalog"
+            android:textSize="24sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imgMango"
+        android:layout_width="221dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tilProductCatalog"
+        app:srcCompat="@drawable/mango" />
+
+    <TextView
+        android:id="@+id/tvMango"
+        android:layout_width="71dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="324dp"
+        android:text="Mango"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvKsh"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="264dp"
+        android:text="Ksh20"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="287dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="60dp"
+        android:text="Description"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDescribe"
+        android:layout_width="361dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="360dp"
+        android:text="With a sweet and tangy flavour"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btAddToCart"
+        android:layout_width="133dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="184dp"
+        android:backgroundTint="#43A047"
+        android:text="Add to cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/btIcons"
+        android:layout_width="387dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="492dp"
+        android:background="#43A047"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="62dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="504dp"
+        android:drawableLeft="@drawable/ic_baseline_home_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNotice"
+        android:layout_width="66dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="508dp"
+        android:drawableLeft="@drawable/ic_baseline_circle_notifications_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPerson"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="500dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

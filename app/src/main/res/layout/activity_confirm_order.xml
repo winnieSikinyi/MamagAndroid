@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmOrderActivity">
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="276dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="96dp"
+        android:text="Address:       Eldoret"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDeliveryType"
+        android:layout_width="278dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="96dp"
+        android:text="DeliveryType:    DoorToDoor"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTotal2"
+        android:layout_width="282dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="92dp"
+        android:text="Total:       ksh 600"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvApples"
+        android:layout_width="304dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="72dp"
+        android:text="Apples         sh.100     5"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMangoes"
+        android:layout_width="304dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="72dp"
+        android:text="Mangoes         sh.50     10"
+        android:textColor="#43A047"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvorders"
+        android:layout_width="143dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="168dp"
+        android:background="#43A047"
+        android:text="Order"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPName"
+        android:layout_width="304dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="88dp"
+        android:text="Product   Name        Price   quantity"
+        android:textColor="#43A047"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btConfirm"
+        android:layout_width="166dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#43A047"
+        android:text="Confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="200dp"
+        android:background="#43A047"
+        android:text="Back"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

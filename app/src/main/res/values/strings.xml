@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mama</string>
+    <string name="get_started">Get Started</string>
+    <string name="started_title">Hello</string>
+    <string name="started_sub_title">
+        <br>From farm to click!</br>
+        <br>your one stop online shop</br>
+    </string>
+    <string name="btn_customer">Customer</string>
+    <string name="btn_vendor">Vendor</string>
+    <string name="btn_login">Login</string>
+
+    <string name="btn_register">Register</string>
+
+    <string name="login_title">Login</string>
+    <string name="register_title">Create an account</string>
+    <string name="login_email"> email or username</string>
+    <string name="login_password">password</string>
+    <string name="login_no_account">
+        I don\'t have an account
+        <font color="#20784D"><b>Register</b></font>
+    </string>
+    <string name="register_fullName">fullName</string>
+    <string name="register_email">email</string>
+    <string name="register_username">username</string>
+    <string name="register_password">password</string>
+    <string name="register_confirm_password">confirm password</string>
+
+    <string name="login_account">
+        I have an account
+        <font color="#20784D"><b>Login</b></font>
+    </string>
+
+
+</resources>
