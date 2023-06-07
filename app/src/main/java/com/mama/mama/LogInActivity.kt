@@ -1,5 +1,6 @@
 package com.mama.mama
 
+import BothRegisterActivity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -26,15 +27,5 @@ class LogInActivity : AppCompatActivity() {
     }
 }
 
-
-
-//buttonLogin.setOnClickListener {
-//    val intent = Intent(this@LogInActivity, CustomerLogin::class.java)
-//    startActivity(intent)
-//}
-//
-//buttonRegister.setOnClickListener {
-//    val intent = Intent(this@LogInActivity, VendorLogin::class.java)
-//    startActivity(intent)
 
 

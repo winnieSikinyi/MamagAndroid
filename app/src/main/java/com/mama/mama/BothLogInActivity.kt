@@ -32,7 +32,10 @@ class BothLogInActivity: AppCompatActivity() {
 }
 fun validate(){
 
+
 }
+
+
 
 
 

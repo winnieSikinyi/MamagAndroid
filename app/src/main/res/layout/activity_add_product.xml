@@ -16,14 +16,15 @@
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/etaddproducts"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="688dp"
+        android:layout_width="385dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="684dp"
         android:hint="ADD PRODUCTS"
+        android:textColor="#43A047"
         android:textColorHint="#546E7A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -32,17 +33,19 @@
         android:layout_height="56dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="628dp"
+        android:layout_marginBottom="620dp"
         android:text="product"
+        android:textColor="#43A047"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintHorizontal_bias="0.298"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="202dp"
-        android:layout_height="184dp"
+        android:layout_width="197dp"
+        android:layout_height="165dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="432dp"
@@ -58,6 +61,8 @@
         android:layout_height="43dp"
         android:layout_marginBottom="376dp"
         android:text="price"
+        android:textColor="#43A047"
+        android:textColorHighlight="#43A047"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.046"
@@ -78,7 +83,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnAdd"
+        android:id="@+id/btAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="104dp"

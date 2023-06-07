@@ -28,10 +28,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_login_title"
         app:layout_constraintEnd_toEndOf="parent">
+
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -44,37 +46,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilEmail"
         app:layout_constraintEnd_toEndOf="parent">
+
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btnLogInCustomer"
-        android:layout_width="246dp"
-        android:layout_height="63dp"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
         android:layout_marginTop="316dp"
+        android:layout_marginBottom="9dp"
         android:background="#43A047"
         android:text="LogIn As Customer"
+        android:textColor="#F5FFFFFF"
+        android:textColorHighlight="#EDFFFFFF"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogInVendor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tv_login_title" />
+        app:layout_constraintTop_toTopOf="@+id/tv_login_title"
+        app:layout_constraintVertical_bias="0.681" />
 
     <Button
         android:id="@+id/btnLogInVendor"
-        android:layout_width="246dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="388dp"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="396dp"
         android:background="#43A047"
         android:text="LogIn As Vendor"
+        android:textColor="#F5FFFFFF"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintHorizontal_bias="0.385"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tv_login_title" />
+        app:layout_constraintTop_toTopOf="@+id/tv_login_title"
+        app:layout_constraintVertical_bias="0.16" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

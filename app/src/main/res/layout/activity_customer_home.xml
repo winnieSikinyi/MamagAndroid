@@ -8,39 +8,15 @@
     tools:context=".CustomerHomeActivity">
 
     <TextView
-        android:id="@+id/tvHerbsSpices"
-        android:layout_width="125dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="24dp"
-        android:background="#43A047"
-        android:text="Herbs and Spices"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvVegetables"
-        android:layout_width="122dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="160dp"
-        android:background="#43A047"
-        android:text="Vegetables"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/tvHome"
-        android:layout_width="419dp"
-        android:layout_height="189dp"
+        android:layout_width="428dp"
+        android:layout_height="57dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
         android:background="#43A047"
-        android:text="Home"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -54,110 +30,36 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="405dp"
-        android:layout_height="165dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fruits" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="437dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="8dp"
-        android:background="#C0DAA6"
-        android:text="Search"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.312"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvFruits"
-        android:layout_width="118dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="256dp"
-        android:layout_marginEnd="292dp"
-        android:background="#43A047"
-        android:text="Fruits"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="109dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginEnd="304dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvHome"
-        app:srcCompat="@drawable/grapes" />
-
-    <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="115dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginEnd="172dp"
+        android:layout_width="133dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="300dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/avocado" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="163dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="260dp"
-        android:layout_marginTop="304dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvHome"
-        app:srcCompat="@drawable/spices" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="96dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="388dp"
-        android:layout_marginEnd="184dp"
+        android:id="@+id/imgFruity"
+        android:layout_width="126dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="248dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tvHome"
         app:srcCompat="@drawable/mango" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="183dp"
-        android:layout_height="91dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="392dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pot" />
-
-    <Button
-        android:id="@+id/btNextHome"
-        android:layout_width="121dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="480dp"
-        android:layout_marginEnd="164dp"
-        android:background="#43A047"
-        android:text="Next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/tvIcons"
-        android:layout_width="413dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="536dp"
+        android:layout_width="510dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="620dp"
         android:background="#43A047"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.931"
         app:layout_constraintStart_toEndOf="@+id/tvHome1"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -165,8 +67,8 @@
         android:id="@+id/tvHome1"
         android:layout_width="57dp"
         android:layout_height="45dp"
-        android:layout_marginTop="544dp"
-        android:layout_marginEnd="332dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="312dp"
         app:drawableLeftCompat="@drawable/ic_baseline_home_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -175,8 +77,8 @@
         android:id="@+id/tvHome3"
         android:layout_width="57dp"
         android:layout_height="45dp"
-        android:layout_marginTop="536dp"
-        android:layout_marginEnd="72dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="56dp"
         android:drawableLeft="@drawable/ic_baseline_person_outline_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -185,9 +87,68 @@
         android:id="@+id/tvHome4"
         android:layout_width="57dp"
         android:layout_height="45dp"
-        android:layout_marginTop="536dp"
-        android:layout_marginEnd="220dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="192dp"
         android:drawableLeft="@drawable/ic_baseline_circle_notifications_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="23dp"
+        android:text="Products Available"
+        android:textColor="#43A047"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCart" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="146dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/berries" />
+
+    <TextView
+        android:id="@+id/tvFruitss"
+        android:layout_width="131dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="52dp"
+        android:text="Mango"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="131dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="28dp"
+        android:text="Avocado"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toEndOf="@+id/imgFruity"
+        app:layout_constraintTop_toBottomOf="@+id/tvFruitss" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="137dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="28dp"
+        android:text="Berries"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

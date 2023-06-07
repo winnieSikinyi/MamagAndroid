@@ -4,14 +4,17 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.mama.mama.databinding.ActivityAddProductBinding
+import com.mama.mama.databinding.ActivityBothLogInBinding
+import com.mama.mama.databinding.ActivityCategoryBinding
 
 class AddProductActivity : AppCompatActivity() {
-    lateinit var btnAdd:Button
+    lateinit var binding: ActivityAddProductBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_add_product)
-        btnAdd=findViewById(R.id.btnAdd)
-        btnAdd.setOnClickListener {
+        binding= ActivityAddProductBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.btAdd.setOnClickListener {
             val intent= Intent(this,MamaMbogaActivity::class.java)
             startActivity(intent)
         }
